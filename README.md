@@ -33,15 +33,19 @@ This project aims to detect **fake news** articles using both traditional machin
    cd Fake-News-Detection
 
 2. Install requirements:
+   ```bash
    pip install -r requirements.txt
 
-3. Run the app:   
+3. Run the app: 
+   ```bash
    python app.py
 
 4. Open in your browser:
+   ```bash
    http://127.0.0.1:5000
 
-🔧 Tech Stack
+## Tech Stack
+
 Python
 
 Flask
@@ -55,7 +59,7 @@ Numpy
 HTML/CSS
 
 
-Future Work
+## Future Work
 Integrate BERT and LSTM models for better accuracy
 
 Add deepfake detection for images and videos using CNNs
